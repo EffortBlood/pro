@@ -1,0 +1,34 @@
+.pos .hight-info {
+  border: 1px groove;
+  padding: 6px;
+  writing-mode: horizontal-tb;
+}
+
+.pos .lista_item {
+  display: table;
+  border-spacing: 10px;
+  border: black 1px solid;
+}
+
+.pos .row_item {
+  display: table-row;
+  border: none;
+}
+
+.pos .item_ticket {
+  font-size: 13px;
+}
+
+.pos .item_total {
+  font-size: 16px;
+}
+
+.pos .item_total_resaltado {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pos-receipt .pos-receipt-right-align_padding {
+    float: right;
+    padding-right: 2px;
+  }
