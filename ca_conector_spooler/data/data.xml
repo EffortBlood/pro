@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- -->
+        <data noupdate="1">
+
+        <record id="iasistente_fiscal_1" model="iasistente.fiscal">
+            <field name="nombre_empesa">Demo</field>
+            <field name="carpeta_facturas">/var/lib/odoo/facturas_txt</field>
+            <field name="notas">Datos de pruebas</field>
+        </record>
+
+        <record id="numero_estacion_1" model="num.estacion">
+            <field name="nombre">192.168.1.211</field>
+            <field name="numero_estacion">001</field>
+            <field name="sub_carpeta">estacion01</field>
+        </record>
+        <record id="numero_estacion_2" model="num.estacion">
+            <field name="nombre">192.168.1.213</field>
+            <field name="numero_estacion">002</field>
+            <field name="sub_carpeta">estacion02</field>
+        </record>
+    </data>
+
+</odoo>

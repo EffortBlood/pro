@@ -1,0 +1,3 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_iasistente_fiscal","access_iasistente_fiscal","model_iasistente_fiscal",,1,1,1,1
+"access_num_estacion","access_num_estacion","model_num_estacion",,1,1,1,1
